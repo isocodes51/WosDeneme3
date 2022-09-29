@@ -1,0 +1,51 @@
+{
+  "_from": "wosdeneme",
+  "_id": "wosdeneme@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-4caiKOYwgTLgfBfErgsrmgwscjchihZUa+4XiK266fGLJu084BQ8KxGkw1Nk1xNOPdgFoOjDclf09/EM6yXsHg==",
+  "_location": "/wosdeneme",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "wosdeneme",
+    "name": "wosdeneme",
+    "escapedName": "wosdeneme",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/wosdeneme/-/wosdeneme-1.0.1.tgz",
+  "_shasum": "bc59d887f6ba12648b32ed8b9809cf0c5d25d149",
+  "_spec": "wosdeneme",
+  "_where": "C:\\wamp64\\www\\Wosdeneme2",
+  "author": {
+    "name": "isocodes51"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "node": "^18.10.0"
+  },
+  "deprecated": false,
+  "description": "wosDeneme1",
+  "devDependencies": {},
+  "keywords": [
+    "Wos"
+  ],
+  "license": "ISC",
+  "main": "WosDeneme2.js",
+  "name": "wosdeneme",
+  "repository": {
+    "type": "module",
+    "url": "github.com/isocodes51/Wos"
+  },
+  "scripts": {
+    "test": "run"
+  },
+  "version": "1.0.3"
+}
