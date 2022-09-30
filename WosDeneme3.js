@@ -9,15 +9,15 @@
         'X-ApiKey': '8b88d28c52323732785d0490e30b0ff42986d01d',
         'Content-Type': 'application/json',
         'charset':'utf-8'
-      },
-      body: JSON.stringify({
-        'databaseId': 'WOS',
-        'lang': 'English',
-        'usrQuery': 'ŞEŞEN, YASİN', 
-        'count':1,
-        'firstRecord': 1,
+      }
+      // body: JSON.stringify({
+      //   'databaseId': 'WOS',
+      //   'lang': 'English',
+      //   'usrQuery': 'ŞEŞEN, YASİN', 
+      //   'count':1,
+      //   'firstRecord': 1,
         
-      })
+      // })
     });
     const content = await rawResponse.json();
   
