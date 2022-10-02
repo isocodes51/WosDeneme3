@@ -10,7 +10,9 @@ const url="https://wos-api.clarivate.com/api/woslite/?databaseId=WOS&usrQuery=TS
     })
     
     .then((response)=>{
-        return response.json();
+      if(response.status==401)
+       console.log("401 hatası"); 
+      return response.json();
     })
 
     .then((Data)=>{
